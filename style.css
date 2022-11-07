@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Noto Serif', serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+/* End of General */
+/* First Section */
+.first-section-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+/* Right Side */
+.main-logo {
+  width: 50vw;
+  height: 100vh;
+  background-color: #1c4d79;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 10rem;
+  letter-spacing: 0.3rem;
+  align-items: center;
+}
+.logo {
+  height: 70vh;
+  padding: 0;
+}
+.slogan {
+  height: 50vh;
+  font-size: 10rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 5rem;
+  font-weight: bold;
+}
+
+/* Left Side */
+
+.big-img {
+  object-fit: cover;
+  filter: brightness(70%) saturate(120%);
+  width: 50vw;
+  height: 100vh;
+}
+.img-slogan {
+  position: relative;
+  height: 50vh;
+  width: 50vw;
+}
+
+.small-slogan-top {
+  font-size: 12rem;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.small-slogan-middle {
+  font-size: 12rem;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(50%);
+}
+.small-slogan-bottom {
+  font-size: 12rem;
+  color: #fff;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translateY(100%);
+}
+/* End of Left Side */
+/* End of First Section */
+
+/* Second Section */
+
+/* Right Side */
+.second-section-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.about-img-name {
+  width: 50%;
+  height: 100vh;
+}
+
+.about {
+  font-size: 4rem;
+  margin-left: 5rem;
+  margin-top: 6rem;
+  font-weight: bold;
+}
+
+.elegante {
+  font-size: 7rem;
+  margin-left: 18rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+/* End of Right Side */
+
+/* Left Side */
+
+.para {
+  width: 50%;
+  height: 100vh;
+  font-size: 2.5rem;
+  color: #fff;
+  background-color: #1c4d79;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  width: 65%;
+}
+
+/* End of Left Side */
+/* End of Second Section */
+
+/* Responsive */
+@media (max-width: 1000px) {
+}
